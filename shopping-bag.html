@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping bag</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+        integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/shopping-bag.css">
+</head>
+<body>
+    <header class="container">
+        <div class="header-wrap">
+            <nav class="nav-wrap-large">
+                <a href="./home.html" class="logo logo-margin">SH</a>
+                <a href="./category-all.html" class="nav-link">Woman</a>
+                <a href="./category-all.html" class="nav-link">Men</a>
+                <a href="./category-all.html" class="nav-link">Kids</a>
+                <a href="./category-all.html" class="nav-link">Coming Soon</a>
+            </nav>
+            <div class="header-item-wrap">
+                <div class="search-wrap search-icon-margin">
+                    <input type="search" class="search-input" id="search" placeholder="Search something...">
+                    <i class="fas fa-search search-icon"></i>
+                </div>
+                <div class="basket-wrap">
+                    <img src="./img/basket-icon.png" class="basket-icon-margin" alt="basket-icon">
+                    <span class="basket">Basket (<span class="basket-amount">0</span>)</span>
+                </div>
+            </div>
+        </div>
+        <hr class="separator separator-visibility">
+        <nav class="nav-wrap-medium">
+            <a href="./category-all.html" class="nav-link">Woman</a>
+            <a href="./category-all.html" class="nav-link">Men</a>
+            <a href="./category-all.html" class="nav-link">Kids</a>
+            <a href="./category-all.html" class="nav-link">Coming Soon</a>
+        </nav>
+    </header>
+    <hr class="separator">
+    <main class="container">
+        <nav class="nav-breadcrumbs">
+            <a class="nav-breadcrumbs-link" href="#">home</a>
+            <span class="nav-breadcrumbs-separator">/</span>
+            <a class="nav-breadcrumbs-link" href="#">men</a>
+            <span class="nav-breadcrumbs-separator">/</span>
+            <a class="nav-breadcrumbs-link" href="#">shoes</a>
+            <span class="nav-breadcrumbs-separator">/</span>
+            <a class="nav-breadcrumbs-link" href="#">floral plimsoll</a>
+        </nav>
+        <section>
+            <h1 class="main-title shopping-bag-title">Your Shopping Bag</h1>
+            <h3 class="main-subtitle shopping-bag-subtitle">Items reserved for limited time only</h3>
+            <table class="shopping-bag-table">
+                <thead>
+                    <tr class="shopping-bag-table-tr">
+                        <th class="shopping-bag-table-title">PRODUCT</th>
+                        <th class="shopping-bag-table-title">DESCRIPTION</th>
+                        <th class="shopping-bag-table-title">color</th>
+                        <th class="shopping-bag-table-title">SIZE</th>
+                        <th class="shopping-bag-table-title">QTY</th>
+                        <th class="shopping-bag-table-title">AMOUNT</th>
+                        <th class="shopping-bag-table-title">delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="shopping-bag-table-tr">
+                        <td class="shopping-bag-product">
+                            <div class="product-img-wrap">
+                                <img class="product-img" src="./img/product_detail_1.jpg" alt="product_detail_2">
+                            </div>
+                        </td>
+                        <td class="shopping-bag-description">
+                            FLORAL PLIMSOLL <span class="lowercase">(1st)</span><span>Ref. 2514/302</span>
+                        </td>
+                        <td class="shopping-bag-product-color">Black</td>
+                        <td class="shopping-bag-product-size">39</td>
+                        <td class="shopping-bag-product-qty">
+                            <input type="number" class="product-qty" min="1" value="1">
+                        </td>
+                        <td class="shopping-bag-product-amount">€99,95</td>
+                        <td class="shopping-bag-product-delete"><i class="fas fa-times"></i></td>
+                    </tr>
+                    <tr class="shopping-bag-table-tr">
+                        <td class="shopping-bag-product">
+                            <div class="product-img-wrap">
+                                <img class="product-img" src="./img/product_detail_2.jpg" alt="product_detail_2">
+                            </div>
+                        </td>
+                        <td class="shopping-bag-description">
+                            FLORAL PLIMSOLL <span class="lowercase">(2nd)</span><span>Ref. 2514/302</span>
+                        </td>
+                        <td class="shopping-bag-product-color">One color</td>
+                        <td class="shopping-bag-product-size">M</td>
+                        <td class="shopping-bag-product-qty">
+                            <input type="number" class="product-qty" min="1" value="1">
+                        </td>
+                        <td class="shopping-bag-product-amount">€99,95</td>
+                        <td class="shopping-bag-product-delete"><i class="fas fa-times"></i></td>
+                    </tr>
+                    <tr class="shopping-bag-table-tr">
+                        <td class="shopping-bag-product">
+                            <div class="product-img-wrap">
+                                <img class="product-img" src="./img/product_detail_3.jpg" alt="product_detail_2">
+                            </div>
+                        </td>
+                        <td class="shopping-bag-description">
+                            FLORAL PLIMSOLL <span class="lowercase">(3rd)</span><span>Ref. 2514/302</span>
+                        </td>
+                        <td class="shopping-bag-product-color">One color</td>
+                        <td class="shopping-bag-product-size">S</td>
+                        <td class="shopping-bag-product-qty">
+                            <input type="number" class="product-qty" min="1" value="1">
+                        </td>
+                        <td class="shopping-bag-product-amount">€99,95</td>
+                        <td class="shopping-bag-product-delete"><i class="fas fa-times"></i></td>
+                    </tr>
+                </tbody>
+                <tfoot class="shopping-bag-table-footer">
+                    <tr class="shopping-bag-table-tr">
+                        <td colspan="6" style="text-align:right">Subtotal:</td>
+                        <td class="product-subtotal-sum">1000$</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <table class="shopping-bag-table shopping-bag-table-tablet">
+                <tbody>
+                    <tr class="shopping-bag-table-tr border-none">
+                        <td class="shopping-bag-product">
+                            <div class="product-img-wrap">
+                                <img class="product-img" src="./img/product_detail_1.jpg" alt="product_detail_2">
+                            </div>
+                        </td>
+                        <td class="shopping-bag-description">
+                            FLORAL PLIMSOLL <span class="lowercase">(1st)</span><span>Ref. 2514/302</span>
+                            <div class="shopping-bag-product-color">Black</div>
+                            <div class="shopping-bag-product-size">39</div>
+                            <div class="shopping-bag-product-qty">
+                                <input type="number" class="product-qty" min="1" value="1">
+                            </div>
+                        </td>
+                        <td class="shopping-bag-product-delete"><i class="fas fa-times"></i></td>
+                    </tr>
+                    <tr class="shopping-bag-table-tr">
+                        <td colspan="3" class="shopping-bag-product-amount">€99,95</td>
+                    </tr>
+                    <tr class="shopping-bag-table-tr border-none">
+                        <td class="shopping-bag-product">
+                            <div class="product-img-wrap">
+                                <img class="product-img" src="./img/product_detail_2.jpg" alt="product_detail_2">
+                            </div>
+                        </td>
+                        <td class="shopping-bag-description">
+                            FLORAL PLIMSOLL <span class="lowercase">(2nd)</span><span>Ref. 2514/302</span>
+                            <div class="shopping-bag-product-color">One color</div>
+                            <div class="shopping-bag-product-size">M</div>
+                            <div class="shopping-bag-product-qty">
+                                <input type="number" class="product-qty" min="1" value="1">
+                            </div>
+                        </td>
+                        <td class="shopping-bag-product-delete"><i class="fas fa-times"></i></td>
+                    </tr>
+                    <tr class="shopping-bag-table-tr">
+                        <td colspan="3" class="shopping-bag-product-amount">€99,95</td>
+                    </tr>
+                    <tr>
+                        <td class="shopping-bag-product">
+                            <div class="product-img-wrap">
+                                <img class="product-img" src="./img/product_detail_3.jpg" alt="product_detail_2">
+                            </div>
+                        </td>
+                        <td class="shopping-bag-description">
+                            FLORAL PLIMSOLL <span class="lowercase">(3rd)</span>L<span>Ref. 2514/302</span>
+                            <div class="shopping-bag-product-color">One color</div>
+                            <div class="shopping-bag-product-size">S</div>
+                            <div class="shopping-bag-product-qty">
+                                <input type="number" class="product-qty" min="1" value="1">
+                            </div>
+                        </td>
+                        <td class="shopping-bag-product-delete"><i class="fas fa-times"></i></td>
+                    </tr>
+                    <tr class="shopping-bag-table-tr">
+                        <td colspan="3" class="shopping-bag-product-amount">€99,95</td>
+                    </tr>
+                </tbody>
+                <tfoot class="shopping-bag-table-footer">
+                    <tr class="shopping-bag-table-tr">
+                        <td colspan="2" style="text-align:right">Subtotal:</td>
+                        <td class="product-subtotal-sum">1000$</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <div class="shopping-bag-buttons-wrap">
+                <a class="shopping-bag-continue-btn" href="#">Continue Shopping</a>
+                <button class="orange-btn order-btn">order now</button>
+            </div>
+        </section>
+    </main>
+    <hr class="separator separator-margin">
+    <footer class="container footer-wrap">
+        <div class="footer-item">
+            <h3 class="footer-title">Collection</h3>
+            <ul>
+                <li><a href="./category-all.html" class="footer-link">Woman</a></li>
+                <li><a href="./category-all.html" class="footer-link">Men</a></li>
+                <li><a href="./category-all.html" class="footer-link">Kids</a></li>
+                <li><a href="./category-all.html" class="footer-link">Coming Soon</a></li>
+            </ul>
+        </div>
+        <div class="footer-item">
+            <h3 class="footer-title">site</h3>
+            <ul>
+                <li><a href="#" class="footer-link">Terms of Service</a></li>
+                <li><a href="#" class="footer-link">Privacy Policy</a></li>
+                <li><a href="#" class="footer-link">Copyright Policy</a></li>
+                <li><a href="#" class="footer-link">Press Kit</a></li>
+                <li><a href="#" class="footer-link">Support</a></li>
+            </ul>
+        </div>
+        <div class="footer-item">
+            <h3 class="footer-title">shop</h3>
+            <ul>
+                <li><a href="#" class="footer-link">About us</a></li>
+                <li><a href="#" class="footer-link">Shipping Methods</a></li>
+                <li><a href="#" class="footer-link">Career</a></li>
+                <li><a href="#" class="footer-link">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-item">
+            <h3 class="footer-title">social</h3>
+            <p class="copywriter-info">
+                Shoper is made with love in Warsaw, <br>2014 &copy; All rights reserved. El Passion
+            </p>
+            <div class="social-icon-wrap">
+                <a href="https://twitter.com" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com" class="social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/main.js"></script>
+    <script src="./js/shopping-bag.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+.thank-you {
+    height: 743px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.thank-you-title {
+    font-size: 92px;
+    letter-spacing: 4.6px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.thank-you-subtitle {
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: #999999;
+    font-style: italic;
+    margin-top: 0;
+    font-weight: 200;
+}
